@@ -3,7 +3,7 @@ const Total = ({parts}) => {
   const totalExercises = parts.reduce((sum, part) => sum + part.exercises, 0);
   return(
     <section>
-      <p>total of {totalExercises} exercises</p>
+      <h3>total of {totalExercises} exercises</h3>
     </section>
   )
 }
